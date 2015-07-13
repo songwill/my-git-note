@@ -54,6 +54,13 @@ $ ~cd
 $ ls -a
 #在Github的“Add SSH Key”中，添加id_rsa.pub（公钥）
 
+#git仓库与github仓库关联
+$ git remote set url origin git@github.com:songwill/my-git-note.git
+$ git remote add origin git@github.com:songwill/my-git-note.git
+
+#推送本地库到远程库
+$ git push -u origin master
+
 #克隆Github上的库
 $ git clone https://github.com/songwill/zhaosuliao_python.git
 
