@@ -33,6 +33,15 @@ $ git reset --hard 3e84506
 #Git 管理的是修改，即add前和add后，工作区和暂存区的区别
 #commit只负责提交暂存区内容
 
+# 查看工作区和版本库最新版区别
+$ git diff HEAD -- note.txt
+
+#1、工作区版本撤销；
+$ git checkout -- note.txt
+#2、暂存区撤销；
+$ git reset HEAD note.txt
+#3、提交后撤销,即回到历史版本
+
 #克隆Github上的库
 $ git clone https://github.com/songwill/zhaosuliao_python.git
 
