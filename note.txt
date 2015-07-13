@@ -7,13 +7,15 @@ $ git config --global user.email "email@example.com"
 $ cd e:/git/home
 $ pwd
 
-#创建文件夹
+#创建文件夹,初始化仓库
 $ mkdir learngit
 $ git init
 
-#添加文件到仓库
+#查看目录下文件，添加文件到仓库,提交给Git
+$ ls
 $ git add note.txt
+$ git commit -m "how to use git"
 
-
-
-https://github.com/songwill/zhaosuliao_python.git
+#查看仓库当前状态,查看被修改该文件有哪些不同
+$ git status
+$ git diff note.txt
