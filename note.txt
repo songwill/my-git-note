@@ -30,6 +30,10 @@ $ git log --pretty = oneline
 $ git reflog
 $ git reset --hard 3e84506
 
+#Git 管理的是修改，即add前和add后，工作区和暂存区的区别
+#commit只负责提交暂存区内容
+
 #克隆Github上的库
 $ git clone https://github.com/songwill/zhaosuliao_python.git
+
 
