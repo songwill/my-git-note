@@ -1,0 +1,19 @@
+﻿#msysgit是Windows版的Git，从http://msysgit.github.io/下载
+#开始菜单里找到“Git”->“Git Bash”,设置
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+
+#指定工作目录,并查看
+$ cd e:/git/home
+$ pwd
+
+#创建文件夹
+$ mkdir learngit
+$ git init
+
+#添加文件到仓库
+$ git add note.txt
+
+
+
+https://github.com/songwill/zhaosuliao_python.git
