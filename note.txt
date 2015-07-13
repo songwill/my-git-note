@@ -22,6 +22,10 @@ $ git commit -m "how to use git"
 $ git status
 $ git diff note.txt
 
+#查看提交过的修改版本
+$ git log
+$ git log --pretty = oneline
+
 #克隆Github上的库
 $ git clone https://github.com/songwill/zhaosuliao_python.git
 
