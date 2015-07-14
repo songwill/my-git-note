@@ -66,8 +66,21 @@ $ git clone git@github.com;songwill/my-git-note.git
 $ git clone https://github.com/songwill/my-git-note.git
 $ cd my-git-note
 
-#增加分支，在分支上修改
-$git checkout -b dev
-$git branch
+#增加分支，查看分支（带*为当前分支）
+$ git checkout -b dev
+$ git branch
+
+#在分支上，提交修改文件
+$ git add note.txt
+$ git commit -m"branch test"
+
+#切换回master主分支,合并分支上的修改,合并完后删除
+$ git checkout master
+$ git merge dev
+$ git branch -d dev
+$ git master
+
+
+
 
 
