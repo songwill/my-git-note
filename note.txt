@@ -99,6 +99,22 @@ $ git stash list
 #会到暂停前分支状态，并删除分支的保存
 $ git stash pop
 
+#本地分支与远程分支
+#查看远程库 
+$ git remote -v
+#推送本地分支
+$ git push origin branch-name
+#如果推送失败，徐先抓取远程新提交，在本地合并好后，再推送
+$ git pull
+#本地创建远程对应分支，本地和远程分支名称最好一致
+$ git checkout -b  branch-name origin/branch-name
+#本地远程分支简历关联
+$ git branch --set -upstream branch-name origin/branch-name
+
+
+
+
+
 
 
 
