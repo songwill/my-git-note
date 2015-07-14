@@ -90,7 +90,14 @@ $ git master
 $ git log --graph --pretty=oneline --abbrev-commit
 
 #分支合并方式，不用fast forward，而用--no-ff的普通合并，可以产看合并过程
+$ git merge --no-ff -m"merge with --no-ff" dev
+#本次合并要创建一个新的commit，所以加上-m参数，把commit描述写
 
+#bug分支，暂停当下分支（保存到某个地方），去做其他分支，做完再回来
+$ git stash
+$ git stash list
+#会到暂停前分支状态，并删除分支的保存
+$ git stash pop
 
 
 
