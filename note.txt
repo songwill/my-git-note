@@ -66,9 +66,13 @@ $ git clone git@github.com;songwill/my-git-note.git
 $ git clone https://github.com/songwill/my-git-note.git
 $ cd my-git-note
 
-#增加分支，查看分支（带*为当前分支）
-$ git checkout -b dev
+#查看分支（带*为当前分支）
 $ git branch
+#创建、切换分支
+$ git branch dev
+$ git checkout dev
+#上面两句可合并为
+$ git checkout -b dev
 
 #在分支上，提交修改文件
 $ git add note.txt
@@ -80,7 +84,5 @@ $ git merge dev
 $ git branch -d dev
 $ git master
 
-
-
-
+#不同分支都做修改，合并时会出现冲突
 
