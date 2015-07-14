@@ -84,6 +84,8 @@ $ git merge dev
 $ git branch -d dev
 $ git master
 
-#不同分支（新建分支和 master分支）内容都做改动，合并时会出现冲突
+#不同分支（新分支和 master分支）内容都做改动时，合并时会出现冲突
+#用cat note.txt查看冲突，改动后，再次提交
+
 
 
